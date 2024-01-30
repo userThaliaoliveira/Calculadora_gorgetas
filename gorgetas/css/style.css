@@ -1,0 +1,73 @@
+:root {
+    --primary-color: rgb(229, 128, 240); /* Define a cor primária como rosa claro */
+    --secondary-color: rgb(255, 255, 255); /* Define a cor secundária como  branco */
+    --tertiary-color: rgb(242, 6, 230); /* Define a cor terciária como pink */
+}
+
+body {
+    background-color: var(--primary-color); /* Define a cor de fundo do corpo usando a cor primária */
+    font-size: 15px;
+    font-family: 'Lato', sans-serif; /* Define a fonte do texto como Lato */
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 2px 2px 2px var(--secondary-color); /* Adiciona uma sombra no contêiner usando a cor secundária */
+    border-radius: 20px;
+}
+
+.title {
+    background: var(--tertiary-color); /* Define o plano de fundo do título usando a cor terciária */
+    color: var(--secondary-color); /* Define a cor do texto do título usando a cor secundária */
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color); /* Adiciona uma borda sólida quando o campo de entrada recebe foco, usando a cor primária */
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color); /* Define o plano de fundo do botão usando a cor primária */
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white; /* Define a cor do texto do botão como branco */
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
